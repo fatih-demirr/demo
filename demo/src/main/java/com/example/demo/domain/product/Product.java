@@ -13,7 +13,7 @@ import javax.validation.constraints.NotBlank;
 
 
 @Data
-@Document(collation = "products")
+@Document(collection = "products")
 @AllArgsConstructor
 @NoArgsConstructor
 public class Product {
