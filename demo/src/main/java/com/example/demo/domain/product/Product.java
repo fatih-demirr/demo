@@ -20,9 +20,14 @@ public class Product {
     @Id
     private String id;
     @NotBlank(message = "required")
+    @Field("name")
     private String productName;
+    @Field("desc")
     private String productDescription;
+    @Field("type")
     private String type;
+    @Field("price")
     private Integer productPrice;
+    @Field("image")
     private String productImagePath;
 }
