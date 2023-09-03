@@ -1,11 +1,10 @@
-/* CSS to center the button */
 
 .center-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Adjust to your preferred height */
+  height: 100vh;
 }
 
 .product-details {
@@ -14,11 +13,11 @@
   border-radius: 4px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   text-align: left;
-  max-width: 600px; /* Adjust as needed */
+  max-width: 600px;
 }
 
 .center-align {
-  text-align: center; /* Center-align the contained button */
+  text-align: center; 
 }
 
 .btn-back {
