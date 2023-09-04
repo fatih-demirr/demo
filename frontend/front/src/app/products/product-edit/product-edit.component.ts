@@ -47,14 +47,13 @@ export class ProductEditComponent implements OnInit{
   }
 
   handleFileInput(event: any) {
-    const file = event.target.files[0]; // Get the first selected file
+    const file = event.target.files[0];
     if (file) {
-      // Read the selected file as a data URL
       const reader = new FileReader();
       reader.readAsDataURL(file);
       reader.onload = () => {
         this.image = reader.result as string;
-        this.product.productImagePath = this.image; // Set the productImagePath
+        this.product.productImagePath = this.image;
       };
     }
   }
